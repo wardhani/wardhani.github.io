@@ -48,7 +48,7 @@ ul {
 	height: 670px;
 }
 .content01{	
-	 background-image: url("../images/moon.jpg");
+	 background-image: url("moon.jpg");
 }
 .wraping{
 	margin-right: 100px;
@@ -176,7 +176,7 @@ ul {
 	margin: auto;
 	width: 50%;
 	float: left;
-	background-image: url("../images/Part2.jpg");
+	background-image: url("Part2.jpg");
 }
 .percen{
 	margin-top: 10px;
