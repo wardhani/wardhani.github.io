@@ -61,13 +61,18 @@ ul.logo{
 ul.menu1 {
 	float:right;
 }
-ul.logo, ul.menu1 {
+ul.logo {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px 0px 0px 0px;
   overflow: hidden;
 }
-
+ul.menu1{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px 0px 0px;
+  overflow: hidden;
+}
 li {
   float: left
 }
