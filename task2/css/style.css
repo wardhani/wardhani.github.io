@@ -121,9 +121,6 @@ ul.logo li a:hover:not(.active), ul.menu1 li a:hover:not(.active) {
 	margin-top: 30px;
     margin-bottom: 40px;
 }
-
-
-
 .content03{
 	display: flex;
 }
@@ -204,7 +201,6 @@ padding-left: 25px;
 }
 .content05{
 	margin: auto;
-	height: 300px;
 	width: auto;
 }
 .image_box{
