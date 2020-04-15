@@ -320,10 +320,12 @@ p{
 	color:white;
 }
 .dot_list{
-	padding: 10px;
+	padding-top : 25px;
 	text-align: center;
 }
-.dot_list ul li{
- float: left;
+.dot_list li{
  margin-left: 10px;
+}
+.dot_list ul{
+	display: inline-block;
 }
