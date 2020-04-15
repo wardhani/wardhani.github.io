@@ -16,7 +16,7 @@ html {
 }
 
 body {
-	font-family: 'Hiragino Kaku Gothic ProN', Arial, Meiryo, sans-serif;
+	font-family: 'Montserrat';
 	line-height: 1.5;
 }
 
@@ -49,10 +49,6 @@ ul {
 }
 .content01{	
 	 background-image: url("../images/bg.png");
-}
-.wraping{
-	margin-right: 100px;
-	margin-left: 100px;
 }
 ul.logo{
 	float:left;
@@ -109,22 +105,26 @@ ul.logo li a:hover:not(.active), ul.menu1 li a:hover:not(.active) {
 .banner img{
 	margin-top: 10px;
 }
+.content02 {
+	text-align: center;
+}
 
-.content02{
-	margin: auto;
-	width: 700px;
-	height: 250px;
-	line-height: 30px;
-	margin-top: 65px;
-	margin-bottom: 40px;
+.about{
+	padding: 80px;
 }
-.content02 h2{
-	font-size: 38px;
-	margin-bottom: 40px;
+.about h2{
+	color: #1d1d1d;
+    font-size: 38px;
+    font-weight: 700;
 }
-.content02 img{
-	margin-top: 30px;
-    margin-bottom: 40px;
+.about p{
+	font-size: 18px;
+    font-weight: 500;
+    color: #787878;
+    line-height: 1.6;
+}
+.about img{
+	margin-top: 40px;
 }
 .content03{
 	display: flex;
@@ -201,7 +201,6 @@ padding-left: 25px;
     margin: 0;
 }
 .text1 p{
-	font-family: 'Montserrat';
 	color: white;
 }
 .content05{
@@ -246,6 +245,12 @@ h2 {
     color: #1d1d1d;
     font-size: 38px;
     font-weight: bold;
+}
+p{
+	font-size: 18px;
+    font-weight: 500;
+    color: #787878;
+    line-height: 1.6;
 }
 .mv{
 	margin-top: 50px;
