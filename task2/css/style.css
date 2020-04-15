@@ -41,7 +41,7 @@ ul {
 
 /*CONTENT*/
 #wrap{
-	width: auto;
+	width: 100%;
 	margin: auto;
 }
 .header{
@@ -64,7 +64,7 @@ ul.menu1 {
 ul.logo {
   list-style-type: none;
   margin: 0;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 0px 10px;
   overflow: hidden;
 }
 ul.menu1{
@@ -260,4 +260,29 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+}
+.content07{
+	padding:100px;
+	background-color: #f5f5f5;
+}
+.services{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.services01{
+	padding: 10% 0% 10% 0;
+}
+.services01{
+	text-align: center;
+}
+.services01 p{
+	font-size:16px;
+}
+.services01 p:first-child{
+	height:51px;
+	vertical-align: middle;
+}
+.services01 h2{
+	font-size:12px;
+	font-weight: 600;
 }
