@@ -75,11 +75,13 @@ li {
 }
 
 ul.logo li a, ul.menu1 li a {
-  display: block;
-  color: #191919;
-  text-align: center;
-  padding: 14px 16px;
+
   text-decoration: none;
+
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+  color: #191919;
   font-size: 14px;
   font-weight: bold;
 }
@@ -227,14 +229,14 @@ padding-left: 25px;
 	margin:0;
 }
 .load p a{
-	text-align: center;
 	text-decoration: none;
+	padding:20px 0;
 	display: block;;
 	width:100%;
-	padding:20px 0;
 	font-size: 12px;
 	font-weight: bold;
 	color:#8e8e8e;
+	text-align: center;
 }
 .content06{
 	position: relative;
@@ -298,14 +300,19 @@ p{
 	text-align: center;
 	background-color: #10c9c3; 
 }
+.testi_text{
+	color:white;
+	font-size: 24px;
+}
 .comment {
     display: table-cell;
     width: 10000px;
     vertical-align: middle;
 }
-.testi_text{
+
+.testi_person{
+	font-size: 12px;
 	color:white;
-	font-size: 24px;
 }
 .testi_text:before{
 	content:"“ ";
@@ -315,10 +322,7 @@ p{
 	content:" ”";
 	font-size: 30px;
 }
-.testi_person{
-	font-size: 12px;
-	color:white;
-}
+
 .dot_list{
 	padding-top : 25px;
 	text-align: center;
@@ -343,7 +347,7 @@ p{
 }
 .contact{
 	max-width: 680px;
-    padding: 80px 15px;
+    padding: 25px 15px;
     margin: 0 auto;
     text-align: center;
 }
@@ -374,14 +378,84 @@ textarea{
 	height:150px;
 }
 .button button {
+  text-align: center;
   background-color: #10c9c3;
   border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
+  padding: 15px 32px;
+  cursor: pointer;
+  color: white;
   display: inline-block;
   font-size: 12px;
-  margin: 30px 2px;
-  cursor: pointer;
+  margin: 25px 2px;
+  
+}
+.content11{
+background-color: #141414;
+}
+.footer{
+	padding: 80px 100px;
+    display: flex;
+}
+.footer div{
+	padding-right: 2%;
+}
+.content11 h5{
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+}
+.footer p{
+	text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.copyright{
+	width: 30%;
+}
+.email_contact{
+	width: 30%;
+}
+.email_contact p a{
+	text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.footer_menu{
+	width: 30%;
+}
+.content11 ul{
+	margin: 0;
+    float: left;
+    list-style-type: none;
+}
+
+.footer_menu li{
+	float: none;
+
+}
+.footer_menu li a{
+	text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.footer_menu ul{
+
+    padding-right: 70px;
+}
+.socialmedia li a{
+	text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.socialmedia li{
+	float: none;
 }
