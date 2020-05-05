@@ -15,7 +15,7 @@ body{
 }
 p{
 	font-size:18px;
-	font-weight: 600;
+	font-weight: 300;
 	color:#787878;
 	line-height: 1.6;
 }
@@ -124,4 +124,49 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 }
 .image_box:hover img{
 	opacity: 0.5;
+}
+.profile{
+	padding: 60px 200px 60px 200px;
+}
+.team{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.team01{
+	padding: 5% 10% 5% 10px;
+}
+.team01 p{
+	font-size:14px;
+}
+.team01 p:first-child{
+	height:300px;
+	vertical-align: middle;
+}
+.team01 h3{
+	font-size: 22px;
+	font-weight: 500;
+}
+.team01 h4{
+	font-size: 13px;
+	color: #ee8686;
+}
+.clients{
+	display: flex;
+}
+.contentA{
+	background-color: #53354a;
+}
+.contentA h2{
+	color: #1d1d1d;
+    font-size: 38px;
+    font-weight: bold;
+    padding: 60px;
+}
+.contentA p{
+	 padding: 60px;
+}
+
+.contentB{
+text-align: center;
+background-color: #a5899d;
 }
