@@ -120,7 +120,7 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
     float: left;
 }
 .image_box img{
-	width: 100%
+	width: 99.8%;
 }
 .image_box:hover img{
 	opacity: 0.5;
