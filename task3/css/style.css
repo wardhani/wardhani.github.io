@@ -157,16 +157,21 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	background-color: #53354a;
 }
 .contentA h2{
-	color: #1d1d1d;
-    font-size: 38px;
+	color: #ffffff;
+    font-size: 36px;
     font-weight: bold;
-    padding: 60px;
+    padding: 70px 0px 0px 70px
 }
 .contentA p{
-	 padding: 60px;
+	 padding: 0px 0px 0px 70px;
+	 color: #ffffff;
+	 font-size: 13px;
 }
 
 .contentB{
 text-align: center;
 background-color: #a5899d;
+}
+.box{
+	width: 50%;
 }
