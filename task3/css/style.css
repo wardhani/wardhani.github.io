@@ -179,3 +179,21 @@ background-color: #a5899d;
 	height: 100%;
 	width: 100%;
 }
+.wraper{
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	top: 120px;
+    left: 120px;
+    display: none;
+    background-color: #da4646;
+    opacity: 0.5;
+}
+.wrap:hover .overlay{
+	display: block;
+}
+.overlay p:first child{
+	font-size: 14;
+	color: white;
+}
