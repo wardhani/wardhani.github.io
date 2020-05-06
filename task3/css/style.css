@@ -6,6 +6,9 @@
   clear: both;
   display: table;
 }
+html{
+	scroll-behavior: smooth;
+}
 body {
     font-family: 'Montserrat';font-size: 16px;
    
@@ -111,9 +114,11 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	height:60px;
 	vertical-align: middle;
 }
-.services01 h2{
-	font-size:12px;
-	font-weight: 600;
+.services01 h3{
+	font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 30px;
 	font-family: 'Raleway', sans-serif;
 }
 .tumbnail{
@@ -133,7 +138,7 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	opacity: 0.5;
 }
 .profile{
-	padding: 60px 200px 60px 200px;
+	padding: 60px 200px 60px 230px;
 }
 .team{
 	display: grid;
@@ -160,7 +165,8 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 }
 .team01 h4{
 	font-size: 13px;
-	color: #e84545;;
+	color: #e84545;
+	margin-bottom: 20px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500px;
 }
@@ -197,6 +203,7 @@ background-color: #a5899d;
 }
 .wraper{
 	position: relative;
+	display:flex;
 }
 .overlay{
 	position: absolute;
@@ -221,9 +228,89 @@ background-color: #a5899d;
 	text-align: center;
 }
 .dot_list li{
- 	margin-left: 10px;
- 	text-decoration: none;
+ 	list-style: none;
+ 	padding: 4px;
 }
 .dot_list ul{
 	display: inline-block;
+}
+.download{
+	padding: 100px;
+	text-align: center;
+}
+.download h2{
+	font-family: 'Raleway', sans-serif;
+	font-size:28px;
+	font-weight: 300;
+	line-height: 50px;
+}
+.download p{
+	font-weight: bold;
+	font-size: 13px;
+}
+.download button{
+	background-color: #e84545;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.footer-1{
+	background: #3a3e64;
+}
+.footer-1 .container{
+	padding-top:65px;
+	padding-bottom: 80px;
+}
+.footer-1 .title{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	color:#ffffff;
+}
+.footer-1 .text{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	font-weight: 500;
+	opacity: 0.5;
+	color:#ffffff;
+}
+.footer-1 ul{
+	list-style: none;
+    padding: 0;
+    margin-left: 110px;
+}
+.footer-1 li{
+	display: inline-block;
+	padding-right: 4px;
+}
+.footer-2{
+	background: #313454;
+}
+.footer-2 .text{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	font-weight: 500;
+	line-height: 22.5px;
+	color:#808080;
+}
+.footer-2 .text span{
+	color:#ffffff;
+}
+@font-face {
+  font-family: webdingsss;
+  src: url("../fonts/webdings.ttf");
+}
+.footer-2 .text love{
+	font-family: webdingsss;
+	color:#e84545;
+}
+.footer-2 .container{
+	padding-top:25px;
+	padding-bottom: 25px;
 }
