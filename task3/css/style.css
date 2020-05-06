@@ -160,8 +160,9 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 }
 .team01 h4{
 	font-size: 13px;
-	color: #ee8686;
+	color: #e84545;;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 500px;
 }
 .clients{
 	display: flex;
@@ -214,4 +215,15 @@ background-color: #a5899d;
 .image_box:hover .overlay{
 	display: block;
 
+}
+.dot_list{
+	padding-top : 25px;
+	text-align: center;
+}
+.dot_list li{
+ 	margin-left: 10px;
+ 	text-decoration: none;
+}
+.dot_list ul{
+	display: inline-block;
 }
