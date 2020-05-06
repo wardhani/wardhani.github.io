@@ -173,7 +173,7 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	color: #ffffff;
     font-size: 36px;
     font-weight: bold;
-    padding: 70px 0px 0px 70px
+    padding: 70px 0px 0px 70px;
 	font-family: 'Raleway', sans-serif;
 }
 .contentA p{
