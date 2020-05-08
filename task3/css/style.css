@@ -22,7 +22,7 @@ body{
 	line-height: 1.6;
 }*/
 .header{
-	padding: 20px 100px;
+	padding: 20px 100px 100px 100px;
 	background-image: url("../images/background.jpg");
 }
 .header_menu{
@@ -87,7 +87,7 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  margin: 4px 2px;
+  margin-top: 50px;
   cursor: pointer;
 }
 .categories{
