@@ -181,15 +181,23 @@
 	<div id="clients" class="clients">
 		<div class="contentB box">
 			<img src="images/clients.png" alt="" class="clientimg">
-			<img src="images/clients.png" alt="" class="clientimg">
+			<img src="images/clients2.png" alt="" class="clientimg">
+			<img src="images/clients3.png" alt="" class="clientimg">
+			<img src="images/clients4.png" alt="" class="clientimg">
 		</div>
 		<div class="contentA box">
 			<h2 class="testimonial">“Integer posuere erat a ante<br>venenatis dapibus posuere velit<br>aliquet. Donec sed odio dui.<br>enean eu leo quam...”</h2>
 			<p class="author">SUSAN SIMS, INTERACTION DESIGNER AT XYZ</p>
-			<h2 class="testimonial">“A room without books is like a body without a soul.”</h2>
+			<h2 class="testimonial">“You've gotta dance like there's nobody watching,<br>Love like you'll never be hurt,<br>Sing like there's nobody listening,<br>And live like it's heaven on earth.”</h2>
 			<p class="author">MARCUS TULLIUS CICERO, INTERACTION DESIGNER AT XYZ</p>
+			<h2 class="testimonial">“I've learned that<br>people will forget what you said,<br>people will forget what you did,<br>but people will never forget how you made them feel.”</h2>
+			<p class="author">MARILYN MONROE, INTERACTION DESIGNER AT XYZ</p>
+			<h2 class="testimonial">“If you want to know<br>what a man's like,<br>take a good look at how he treats his inferiors,<br>not his equals.”</h2>
+			<p class="author">OSCAR WILDE, INTERACTION DESIGNER AT XYZ</p>
 		<div class="dot_list">
 		 <ul>
+		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
+		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
 		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
 		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
 		 </ul>
@@ -259,8 +267,8 @@ function carousel() {
     y[i].style.display = "none";  
     z[i].style.display = "none";  
   }
-  for (i = 0; i < dots.length; i++) {
-	o[i].className = dots[i].className.replace(" active", "");
+  for (i = 0; i < o.length; i++) {
+	o[i].className = o[i].className.replace(" active", "");
   }
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    

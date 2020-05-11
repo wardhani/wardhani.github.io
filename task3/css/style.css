@@ -311,3 +311,6 @@ background-color: #a5899d;
 	padding-top:25px;
 	padding-bottom: 25px;
 }
+.not_active.active img {
+    content: url("../images/Ellipse 2.png");
+}
