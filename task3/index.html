@@ -148,28 +148,28 @@
 	<div id="profile" class="profile">
 		<div class="team">
 			<div class="team01">
-				<p><img src="images/profil1.png" alt="Easily Customised"></p>
+				<p><img src="images/profil1.png" alt=""></p>
 				<h3>Ruth Woods</h3>
 				<h4>FOUNDER, CEO</h4>
 				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 				<a href="#"><img src="images/social icons.png" alt="social icons"></a>
 			</div>
 			<div class="team01">
-				<p><img src="images/profil2.png" alt="Responsive REady"></p>
+				<p><img src="images/profil2.png" alt=""></p>
 				<h3>Timothy Reed</h3>
 				<h4>CO-FOUNDER, DEVELOPER</h4>
 				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 				<a href="#"><img src="images/social icons.png" alt="social icons"></a>
 			</div>
 			<div class="team01">
-				<p><img src="images/profil3.png" alt="Modern Design"></p>
+				<p><img src="images/profil3.png" alt=""></p>
 				<h3>Victoria Valdez</h3>
 				<h4>UI DESIGNER</h4>
 				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 				<a href="#"><img src="images/social icons.png" alt="social icons"></a>
 			</div>
 			<div class="team01">
-				<p><img src="images/profil4.png" alt="Clean Code"></p>
+				<p><img src="images/profil4.png" alt=""></p>
 				<h3>Beverly Little</h3>
 				<h4>DATA SCIENTIST</h4>
 				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
@@ -179,17 +179,19 @@
 	</div>
 
 	<div id="clients" class="clients">
-		<div class="contentB box"><img src="images/clients.png" alt=""></div>
+		<div class="contentB box">
+			<img src="images/clients.png" alt="" class="clientimg">
+			<img src="images/clients.png" alt="" class="clientimg">
+		</div>
 		<div class="contentA box">
-			<h2>“Integer posuere erat a ante<br>venenatis dapibus posuere velit<br>aliquet. Donec sed odio dui.<br>enean eu leo quam...”</h2>
-			<p>SUSAN SIMS, INTERACTION DESIGNER AT XYZ</p>
-			 <div class="dot_list">
+			<h2 class="testimonial">“Integer posuere erat a ante<br>venenatis dapibus posuere velit<br>aliquet. Donec sed odio dui.<br>enean eu leo quam...”</h2>
+			<p class="author">SUSAN SIMS, INTERACTION DESIGNER AT XYZ</p>
+			<h2 class="testimonial">“A room without books is like a body without a soul.”</h2>
+			<p class="author">MARCUS TULLIUS CICERO, INTERACTION DESIGNER AT XYZ</p>
+		<div class="dot_list">
 		 <ul>
-		 	<li><img src="images/Ellipse 1.png"></li>
-		 	<li><img src="images/Ellipse 2.png"></li>
-		 	<li><img src="images/Ellipse 1.png"></li>
-		 	<li><img src="images/Ellipse 1.png"></li>
-		 	<li><img src="images/Ellipse 1.png"></li>
+		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
+		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
 		 </ul>
 		</div>
 	    </div>
@@ -242,6 +244,33 @@
 
 
 </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("clientimg");
+  var y = document.getElementsByClassName("testimonial");
+  var z = document.getElementsByClassName("author");
+  var o = document.getElementsByClassName("not_active");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+    y[i].style.display = "none";  
+    z[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+	o[i].className = dots[i].className.replace(" active", "");
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";
+  y[myIndex-1].style.display = "block";
+  z[myIndex-1].style.display = "block";
+  o[myIndex-1].className += " active";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
 </body>
 </html>
