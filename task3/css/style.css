@@ -183,9 +183,9 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 .contentA h2{
 	color: #ffffff;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 300;
     padding: 70px 0px 0px 70px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Cardo', serif;
 }
 .contentA p{
 	 padding: 0px 0px 0px 70px;
@@ -379,5 +379,47 @@ background-color: #a5899d;
 		text-align: center;
 		padding: 5%;
 	}
+	.services01 p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #6c7279;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+	}
 
+}
+@media (max-width:1090px){
+	.clients {
+    width: 100%;
+	}
+	.categories {
+    padding: 100px;
+	}
+	.team {
+    grid-template-columns: auto auto;
+    text-align: center;
+	}
+	.profile{
+		padding: 100px;
+	}
+	.text ul li{
+		text-align: center;
+	}
+	.footer-1 ul {
+    margin-left: 40px;
+	}
+	.contentA h2 {
+    font-size: 30px;
+    padding: 60px 0px 0px 50px;
+    font-weight: 100;
+	}
+	.contentA p {
+    font-size: 12px;
+	}
+}
+
+@media (max-width: 768px){
+	.services01{
+		
+	}
 }
