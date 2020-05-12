@@ -314,3 +314,14 @@ background-color: #a5899d;
 .not_active.active img {
     content: url("../images/Ellipse 2.png");
 }
+/*SP TABLET*/
+
+@media (max-width: 1024px){
+	.wrap {
+		width: auto;
+		margin: auto;
+	}
+	.header_menu{
+		padding: 10px;
+	}
+}
