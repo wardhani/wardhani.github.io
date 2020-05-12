@@ -30,7 +30,7 @@ body{
 	border-bottom: 1px solid #505269;
 }
 .top{
-	width: 1170px;
+	max-width:1170px;
     margin: 0 auto;
 }
 ul.logo{
@@ -105,7 +105,8 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	grid-template-columns: auto auto auto;
 }
 .services01{
-	padding: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 .services01{
 	text-align: center;
@@ -364,7 +365,19 @@ background-color: #a5899d;
     	padding: 85px 80px;
     	background-color: #f5f5f5;
     }
-    .top{
-    	display: none;
-    }
+   .text_benner {
+    padding: 100px 0px 0px 0px;
+	}
+	.team {
+    display: grid;
+    grid-template-columns: auto auto;
+	}
+	.profile{
+		padding: 50px;
+	}
+	.team01{
+		text-align: center;
+		padding: 5%;
+	}
+
 }
