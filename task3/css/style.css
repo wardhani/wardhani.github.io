@@ -317,11 +317,24 @@ background-color: #a5899d;
 /*SP TABLET*/
 
 @media (max-width: 1024px){
-	.wrap {
+	.wraper{
 		width: auto;
 		margin: auto;
+
 	}
 	.header_menu{
-		padding: 10px;
+		padding: 0px;
 	}
+	.logo ul li{
+		float: left;
+	}
+	.menu_list li{
+		float: none;
+	}
+	.menu_list .icon{
+		float: right;
+    	display: block;
+	}
+	.menu_list li a{
+    	display: none;}
 }
