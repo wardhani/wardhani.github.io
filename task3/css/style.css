@@ -26,7 +26,12 @@ body{
 	background-image: url("../images/background.jpg");
 }
 .header_menu{
-	padding: 14px 300px;
+	padding: 40px 0 !important;
+	border-bottom: 1px solid #505269;
+}
+.top{
+	width: 1170px;
+    margin: 0 auto;
 }
 ul.logo{
 	float:left;
@@ -346,8 +351,10 @@ background-color: #a5899d;
     }
     .header_menu .menu_list{
     	float: none;
-    	position: absolute;
-    	display: none;
+	    position: absolute;
+	    display: none;
+	    left: 460px;
+	    top: 50px;
     }
     .services {
     	display: grid;
@@ -356,5 +363,8 @@ background-color: #a5899d;
     .categories{
     	padding: 85px 80px;
     	background-color: #f5f5f5;
+    }
+    .top{
+    	display: none;
     }
 }
