@@ -349,7 +349,7 @@ background-color: #a5899d;
 }
 /*SP TABLET*/
 
-@media (max-width: 1024px){
+@media (max-width: 1070px){
 	.wraper{
 		width: auto;
 		margin: auto;
