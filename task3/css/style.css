@@ -110,8 +110,8 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	grid-template-columns: auto auto auto;
 }
 .services01{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 .services01{
 	text-align: center;
