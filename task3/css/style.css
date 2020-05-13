@@ -88,9 +88,10 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	line-height: 70px;
+	margin-top: 15%;
 }
 .text_benner{
-	padding: 120px 50px 50px 50px;
+	padding: 0 200px;
 }
 .text_benner a{
   background-color: #e84545;
@@ -104,12 +105,13 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
   cursor: pointer;
 }
 .categories{
-	padding:100px 250px;
-	background-color: #f5f5f5;
+	padding: 100px 0;
 }
 .services{
-	display: grid;
-	grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .services01{
 	padding-left: 4%;
@@ -150,17 +152,13 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	width: 100%;
 }
 .profile{
-	padding: 60px 200px 60px 200px;
-}
-.team01:first-child{
-	padding-left: 0px;
-}
-.team01:last-child{
-	padding-right: 0px;
+	padding: 100px 0;
 }
 .team{
 	display: grid;
 	grid-template-columns: auto auto auto auto;
+	max-width: 1200px;
+    margin: 0 auto;
 }
 .team01{
 	padding: 10px;
