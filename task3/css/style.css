@@ -104,7 +104,7 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
   cursor: pointer;
 }
 .categories{
-	padding:100px 260px;
+	padding:100px 250px;
 	background-color: #f5f5f5;
 }
 .services{
@@ -112,18 +112,19 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	grid-template-columns: auto auto auto;
 }
 .services01{
-	padding-left: 3%;
-	padding-right: 3%;
-}
-.services01{
+	padding-left: 4%;
+	padding-right: 9%;
 	text-align: center;
+	margin-bottom: 50px;
 }
+
 .services01 p{
 	font-size:14px;
-	line-height: 1.6;
+	line-height: 22.4px;
 	color: #6c7279;
 	font-family: 'Raleway', sans-serif;
 }
+
 .services01 p:first-child{
 	height:60px;
 	vertical-align: middle;
@@ -149,14 +150,20 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	width: 100%;
 }
 .profile{
-	padding: 60px 200px 60px 230px;
+	padding: 60px 200px 60px 200px;
+}
+.team01:first-child{
+	padding-left: 0px;
+}
+.team01:last-child{
+	padding-right: 0px;
 }
 .team{
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 }
 .team01{
-	padding: 5% 10% 5% 10px;
+	padding: 10px;
 }
 .team01 p{
 	font-size:14px;
@@ -164,15 +171,17 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	line-height: 1.6;
 	font-family: 'Raleway', sans-serif;	
 }
-.team01 p:first-child{
-	height:300px;
+.team01 p{
 	vertical-align: middle;
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0px;
 }
 .team01 h3{
 	font-size: 22px;
-	font-weight: 500;
-	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .team01 h4{
 	font-size: 13px;
@@ -180,6 +189,9 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	margin-bottom: 20px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500px;
+}
+.team01 a img{
+	margin-top: 20px;
 }
 .clients{
 	display: flex;
