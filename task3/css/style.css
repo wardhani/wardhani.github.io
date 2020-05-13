@@ -447,7 +447,7 @@ background-color: #a5899d;
     margin-top: 10%;
 	}
 	.header{
-		padding: 0px 30px 100px 30px;
+		padding: 0px 50px 100px 50px;
 	}
 	.text_benner p {
 		font-size: 17px;
@@ -466,7 +466,7 @@ background-color: #a5899d;
     	float: none;
 	    position: absolute;
 	    display: none;
-	    left: 585px;
+	    left: 570px;
    		top: 65px;
     }
 }
