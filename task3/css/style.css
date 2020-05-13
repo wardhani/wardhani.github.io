@@ -157,7 +157,7 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 .team{
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	max-width: 1200px;
+	max-width: 1170px;
     margin: 0 auto;
 }
 .team01{
@@ -371,8 +371,8 @@ background-color: #a5899d;
     	float: none;
 	    position: absolute;
 	    display: none;
-	    left: 460px;
-	    top: 50px;
+	    left: 560px;
+    	top: 70px;
     }
     .services {
     	display: grid;
@@ -393,7 +393,6 @@ background-color: #a5899d;
 		padding: 50px;
 	}
 	.team01{
-		text-align: center;
 		padding: 5%;
 	}
 	.services01 p {
@@ -406,6 +405,7 @@ background-color: #a5899d;
 
 }
 @media (max-width:1090px){
+
 	.clients {
     width: 100%;
 	}
@@ -433,10 +433,40 @@ background-color: #a5899d;
 	.contentA p {
     font-size: 12px;
 	}
+	.profile {
+    padding: 70px;}
 }
 
 @media (max-width: 768px){
-	.services01{
-		
+	.profile {
+    padding: 50px;
 	}
+	.text_benner h1 {
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 10%;
+	}
+	.header{
+		padding: 0px 30px 100px 30px;
+	}
+	.text_benner p {
+		font-size: 17px;
+		padding: 0px;
+	}
+	.text_benner .text_content {
+		padding: 0px;
+	}
+	.text_benner{
+		padding: 20px 0px 0px 0px;
+	}
+	.header_menu{
+		padding: 20px 0;
+	}
+	 .header_menu .menu_list{
+    	float: none;
+	    position: absolute;
+	    display: none;
+	    left: 585px;
+   		top: 65px;
+    }
 }
