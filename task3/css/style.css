@@ -46,10 +46,13 @@ ul.menu_list li a {
   display: block;
   color: #cbccd3;
   text-align: center;
-  padding: 15px 35px;
+  padding: 15px 60px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
+}
+.menu_list li a:last-child{
+    padding-right: 0px;
 }
 .logo li a img{
 	display: inline-block;
@@ -95,7 +98,7 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  margin-top: 80px;
+  margin-top: 70px;
   cursor: pointer;
 }
 .categories{
