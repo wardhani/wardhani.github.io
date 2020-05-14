@@ -15,7 +15,7 @@ body{
 }
 .header{
 	padding: 0px 100px 100px 100px;
-	background-image: url("../images/background.png");
+	background-image: url("../images/background.png") ;
 }
 .header_menu{
 	padding: 40px 0 !important;
@@ -87,8 +87,8 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 10px;
 	text-transform: uppercase;
-	line-height: 70px;
-	margin-top: 15%;
+	line-height: 75px;
+	margin-top: 12%;
 }
 .text_benner{
 	padding: 0 200px;
