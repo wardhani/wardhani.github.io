@@ -539,4 +539,7 @@ background-color: #a5899d;
     text-align: center;
     font-size: 10px;
 	}
+	.nav_bar {
+    margin-top: 13px;
+	}
 }
