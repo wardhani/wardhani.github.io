@@ -499,3 +499,34 @@ background-color: #a5899d;
 		width: 50%;
 	}
 }
+@media (max-width: 414px){
+	.header {
+	    padding: 0px 10px 100px 10px;
+	}
+	.text_benner h1 {
+	    font-size: 35px;
+    	line-height: 40px;
+	}
+	.services {
+    display: grid;
+    grid-template-columns: auto;
+	}
+	.categories {
+    padding: 30px;
+	}
+	.image_box {
+    width: 100%;
+	}
+	.team {
+    grid-template-columns: auto;
+	}
+	.download {
+    padding: 30px;
+	}
+	.footer-1 ul {
+    margin-left: 115px;
+	}
+	.footer-1 .text {
+    font-size: 13px;
+	}
+}
