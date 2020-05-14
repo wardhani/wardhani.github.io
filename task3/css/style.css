@@ -347,6 +347,7 @@ background-color: #a5899d;
 	float: right;
 	display: none;
 }
+
 /*SP TABLET*/
 
 @media (max-width: 1070px){
@@ -401,6 +402,15 @@ background-color: #a5899d;
     color: #6c7279;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
+	}
+
+	.header_menu .menu_list {
+    left: 0px;
+    top: 100px;
+    width: 100%;
+	}
+	ul.menu_list li a {
+    background: #3a3e64;
 	}
 
 }
@@ -472,5 +482,24 @@ background-color: #a5899d;
     ul.menu_list li a {
     padding: 9px 0px;
     font-size: 12px;
-    font-weight: 500;}
+    font-weight: 500;
+	}
+	.footer-1 ul{
+		margin-left: 190px;
+	}
+	.text-center{
+		margin-bottom: 55px;
+	}
+	.text-center:last-child{
+		margin-bottom: 0px;
+	}
+	.box{
+		width: 100%;
+	}
+	.clients{
+		display: inherit;
+	}
+	.image_box {
+		width: 50%;
+	}
 }
