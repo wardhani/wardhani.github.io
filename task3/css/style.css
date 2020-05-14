@@ -372,8 +372,9 @@ background-color: #a5899d;
     	float: none;
 	    position: absolute;
 	    display: none;
-	    left: 560px;
-    	top: 70px;
+	    left: 0px;
+    top: 100px;
+    width: 100%;
     }
     .services {
     	display: grid;
@@ -404,11 +405,6 @@ background-color: #a5899d;
     font-weight: 500;
 	}
 
-	.header_menu .menu_list {
-    left: 0px;
-    top: 100px;
-    width: 100%;
-	}
 	ul.menu_list li a {
     background: #3a3e64;
 	}
@@ -476,7 +472,7 @@ background-color: #a5899d;
     	float: none;
 	    position: absolute;
 	    display: none;
-	    left: 635px;
+	    left: 0px;
     	top: 75px;
     }
     ul.menu_list li a {
