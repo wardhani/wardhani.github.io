@@ -204,10 +204,10 @@
 			<p class="author">OSCAR WILDE, INTERACTION DESIGNER AT XYZ</p>
 		<div class="dot_list">
 		 <ul>
-		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
-		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
-		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
-		 	<li class="not_active"><img src="images/Ellipse 1.png"></li>
+		 	<li class="not_active"><img src="images/Ellipse 1.png" onclick="slide(1)"></li>
+			<li class="not_active"><img src="images/Ellipse 1.png" onclick="slide(2)"></li>
+			<li class="not_active"><img src="images/Ellipse 1.png" onclick="slide(3)"></li>
+			<li class="not_active"><img src="images/Ellipse 1.png" onclick="slide(4)"></li>
 		 </ul>
 		</div>
 	    </div>
@@ -261,15 +261,16 @@
 
 </div>
 <script>
-var myIndex = 0;
+var myIndex = 0,n;
+var auto;
+var x = document.getElementsByClassName("clientimg");
+var y = document.getElementsByClassName("testimonial");
+var z = document.getElementsByClassName("author");
+var o = document.getElementsByClassName("not_active");
 carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("clientimg");
-  var y = document.getElementsByClassName("testimonial");
-  var z = document.getElementsByClassName("author");
-  var o = document.getElementsByClassName("not_active");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
     y[i].style.display = "none";  
@@ -284,9 +285,28 @@ function carousel() {
   y[myIndex-1].style.display = "block";
   z[myIndex-1].style.display = "block";
   o[myIndex-1].className += " active";
-  setTimeout(carousel, 3000); // Change image every 2 seconds
+  auto = setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+function slide(n){
+	
+	clearTimeout(auto);
+	for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+    y[i].style.display = "none";  
+    z[i].style.display = "none";  
+  }
+  for (i = 0; i < o.length; i++) {
+	o[i].className = o[i].className.replace(" active", "");
+  }
+  x[n-1].style.display = "block";
+  y[n-1].style.display = "block";
+  z[n-1].style.display = "block";
+  o[n-1].className += " active";
+	myIndex=n
+  auto = setTimeout(carousel, 3000); // Change image every 2 seconds
 }
 </script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 	$(document).ready(function(){

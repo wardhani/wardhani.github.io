@@ -450,7 +450,7 @@ background-color: #a5899d;
 		padding: 0px 50px 100px 50px;
 	}
 	.text_benner p {
-		font-size: 17px;
+		font-size: 15px;
 		padding: 0px;
 	}
 	.text_benner .text_content {
@@ -466,7 +466,11 @@ background-color: #a5899d;
     	float: none;
 	    position: absolute;
 	    display: none;
-	    left: 570px;
-   		top: 65px;
+	    left: 635px;
+    	top: 75px;
     }
+    ul.menu_list li a {
+    padding: 9px 0px;
+    font-size: 12px;
+    font-weight: 500;}
 }
