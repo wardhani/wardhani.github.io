@@ -545,4 +545,11 @@ background-color: #a5899d;
 	.team01 {
     padding: 5% 0;
 	}
+	.services01 {
+    padding-left: 4%;
+    padding-right: 4%;
+	}
+	.services01:first-child{
+		margin-top: 50px;
+	}
 }
