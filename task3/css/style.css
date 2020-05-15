@@ -146,7 +146,7 @@ ul.logo li a:hover:not(.active), ul.menu_list li a:hover:not(.active) {
 	width: 25%;
     float: left; 
 	overflow: hidden;
-
+	border: 1px solid #fff;
 }
 .image_box img{
 	width: 100%;
