@@ -408,6 +408,9 @@ background-color: #a5899d;
 	ul.menu_list li a {
     background: #3a3e64;
 	}
+	.header {
+    padding: 0px 50px 50px 50px;
+		}
 
 }
 @media (max-width:1090px){
