@@ -483,9 +483,6 @@ background-color: #a5899d;
     font-size: 12px;
     font-weight: 500;
 	}
-	.footer-1 ul{
-		margin-left: 190px;
-	}
 	.text-center{
 		margin-bottom: 55px;
 	}
@@ -500,6 +497,19 @@ background-color: #a5899d;
 	}
 	.image_box {
 		width: 50%;
+	}
+	.text ul li {
+
+    margin-top: 5px;
+    float: none;
+	}
+	.row {
+     display: block;
+    flex-wrap: wrap;
+    text-align: -webkit-center;
+	}
+	.footer-1 ul {
+    margin-left: auto;
 	}
 }
 @media (max-width: 414px){
@@ -527,7 +537,7 @@ background-color: #a5899d;
     padding: 30px;
 	}
 	.footer-1 ul {
-    margin-left: 115px;
+    margin-left: auto;
 	}
 	.footer-1 .text {
     font-size: 13px;
