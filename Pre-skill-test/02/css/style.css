@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	vertical-align: top;
+	font-size: 100%;
+}
+
+body {
+	line-height: 1.5;
+
+    font-family: Meiryo;
+}
+
+ul {
+	list-style: none;
+}
+
+/* clearfix */
+.clearfix:before,
+.clearfix:after{
+	display:table;
+	content:"";
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+/* レイアウト
+-------------------------- */
+/* Content*/
+#wrap{
+	width: 980px;
+	margin: auto;
+}
+#wraper{
+	margin: auto;
+	width: 970px;
+}
+.header{
+	margin-top: 30px;
+	border-bottom: solid 2px #da3a5d;
+	margin-bottom: 45px;
+}
+.logo{
+	margin-bottom: 25px;
+}
+.banner{
+	margin-bottom: 45px;
+}
+.content1{
+	background-image: url("../images/line.png");
+	background-repeat: no-repeat;
+    margin-bottom: 27px;
+}
+.content1 h2{
+	font-size: 28px;
+    color: #222;
+    padding: 2px 0px 0px 0px;
+    margin-left: 30px;
+}
+.main1{
+	width: 475px;
+    float: left;
+    margin-bottom: 40px;
+}
+.main1 img{
+	margin-left: 23px;
+    float: left;
+    margin-right: 35px;
+
+}
+.main1 h3{
+	font-size: 24px;
+    color: #d0102c;
+    font-weight: bold;
+}
+.main1 p{
+	font-size: 16px;
+	color: #222;
+}
+.main2{
+	width: 475px;
+    float: right;
+    margin-bottom: 40px;
+}
+.main2 img{
+	margin-top: 15px;
+    float: left;
+    margin-right: 19px;
+
+}
+.main2 h3{
+	font-size: 24px;
+    color: #d0102c;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+.main2 p{
+	line-height: 25px;
+    font-size: 16px;
+    color: #222;
+}
+.main3{
+	width: 472px;
+
+}
+.main3 img{
+    float: left;
+    margin-right: 20px;
+
+}
+.main3 h3{
+	font-size: 24px;
+    color: #d0102c;
+    font-weight: bold;
+}
+.main3 p{
+	font-size: 16px;
+	color: #222;
+	line-height: 24px;
+}
+.main4{
+	width: 475px;
+    float: right;
+}
+.main4 img{
+	margin-top: 15px;
+    float: left;
+    margin-right: 19px;
+
+}
+.main4 h3{
+	font-size: 24px;
+    color: #d0102c;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+.main4 p{
+	line-height: 25px;
+    font-size: 16px;
+    color: #222;
+}
