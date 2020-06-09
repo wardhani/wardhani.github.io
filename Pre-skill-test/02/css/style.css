@@ -48,20 +48,21 @@ ul {
 	width: 970px;
 }
 .header{
-	margin-top: 30px;
+	
 	border-bottom: solid 2px #da3a5d;
-	margin-bottom: 45px;
+	margin: 30px 10px 45px 10px;
 }
 .logo{
 	margin-bottom: 25px;
 }
 .banner{
-	margin-bottom: 45px;
+	margin: 0 10px 45px 10px;
 }
 .content1{
 	background-image: url("../images/line.png");
 	background-repeat: no-repeat;
     margin-bottom: 27px;
+    margin:0 10px 27px 10px;
 }
 .content1 h2{
 	font-size: 28px;
@@ -69,10 +70,14 @@ ul {
     padding: 2px 0px 0px 0px;
     margin-left: 30px;
 }
+.main_content1{
+	margin: 0 10px 0 10px;
+}
 .main1{
 	width: 475px;
     float: left;
     margin-bottom: 40px;
+    height: 140px;
 }
 .main1 img{
 	margin-left: 23px;
@@ -93,11 +98,13 @@ ul {
 	width: 475px;
     float: right;
     margin-bottom: 40px;
+    height: 140px;
 }
 .main2 img{
 	margin-top: 15px;
     float: left;
-    margin-right: 19px;
+    margin-left: 10px;
+    margin-right: 20px;
 
 }
 .main2 h3{
@@ -114,7 +121,7 @@ ul {
 }
 .main3{
 	width: 472px;
-
+	height: 140px;
 }
 .main3 img{
     float: left;
@@ -134,11 +141,13 @@ ul {
 .main4{
 	width: 475px;
     float: right;
+    height: 140px;
 }
 .main4 img{
-	margin-top: 15px;
+	margin-top: 5px;
     float: left;
-    margin-right: 19px;
+    margin-right: 20px;
+    margin-left: 10px;
 
 }
 .main4 h3{
@@ -147,6 +156,7 @@ ul {
     font-weight: bold;
     line-height: 30px;
     margin-bottom: 3px;
+    margin-top: 6px;
 }
 .main4 p{
 	line-height: 25px;
