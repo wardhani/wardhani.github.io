@@ -68,7 +68,7 @@ ul {
 	font-size: 28px;
     color: #222;
     padding: 2px 0px 0px 0px;
-    margin-left: 30px;
+    margin-left: 29px;
 }
 .main_content1{
 	margin: 0 10px 45px 10px;
@@ -170,4 +170,30 @@ ul {
 .main_banner{
 	text-align: center;
 	margin-bottom: 45px;
+}
+.question{
+	margin: 0 10px 0 10px;
+}
+.question li{
+	background-image: url("../images/arr.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.list a{
+	font-size: 18px;
+    line-height: 36px;
+    margin-left: 18px;
+    color: #263c79;
+}
+.content2{
+	background-image: url("../images/line.png");
+	background-repeat: no-repeat;
+    margin-bottom: 27px;
+    margin:0 10px 20px 10px;
+}
+.content2 h2{
+	font-size: 28px;
+    color: #222;
+    padding: 2px 0px 0px 0px;
+    margin-left: 29px;
 }
