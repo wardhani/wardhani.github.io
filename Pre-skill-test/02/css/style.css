@@ -172,7 +172,7 @@ ul {
 	margin-bottom: 45px;
 }
 .question{
-	margin: 0 10px 0 10px;
+	margin: 0 10px 50px 10px;
 }
 .question li{
 	background-image: url("../images/arr.png");
@@ -196,4 +196,12 @@ ul {
     color: #222;
     padding: 2px 0px 0px 0px;
     margin-left: 29px;
+}
+.footer{
+	background-color: #7b7b7b;
+}
+.footer .text1{
+	color: #ffffff;
+	font-size: 12px;
+	text-align : center;
 }
