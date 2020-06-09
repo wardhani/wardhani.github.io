@@ -206,3 +206,6 @@ ul {
 	font-size: 12px;
 	text-align : center;
 }
+.list:hover a{
+	text-decoration: none;
+}
